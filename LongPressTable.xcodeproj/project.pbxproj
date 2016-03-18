@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38271C9BCB0C00736B56 /* AppDelegate.m */; };
+		758D38361C9BCB0C00736B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758D38281C9BCB0C00736B56 /* Assets.xcassets */; };
+		758D38371C9BCB0C00736B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */; };
+		758D38381C9BCB0C00736B56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 758D382B1C9BCB0C00736B56 /* Info.plist */; };
+		758D38391C9BCB0C00736B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D382C1C9BCB0C00736B56 /* main.m */; };
+		758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D382E1C9BCB0C00736B56 /* ViewController.m */; };
+		758D38451C9BCC6C00736B56 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38411C9BCC6C00736B56 /* LongPressTableHelper.m */; };
+		758D38461C9BCC6C00736B56 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38441C9BCC6C00736B56 /* UITableView+LongPressTable.m */; };
+		758D384A1C9BCF8900736B56 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38491C9BCF8900736B56 /* UIButton+category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F701F71C437E2D00661E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F701D51C437E2D00661E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F701DC1C437E2D00661E64;
+			remoteInfo = text123;
+		};
+		75F702021C437E2D00661E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F701D51C437E2D00661E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F701DC1C437E2D00661E64;
+			remoteInfo = text123;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		758D38261C9BCB0C00736B56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		758D38271C9BCB0C00736B56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		758D38281C9BCB0C00736B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758D382A1C9BCB0C00736B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758D382B1C9BCB0C00736B56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758D382C1C9BCB0C00736B56 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		758D382D1C9BCB0C00736B56 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		758D382E1C9BCB0C00736B56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		758D38401C9BCC6C00736B56 /* LongPressTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTableHelper.h; sourceTree = "<group>"; };
+		758D38411C9BCC6C00736B56 /* LongPressTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTableHelper.m; sourceTree = "<group>"; };
+		758D38421C9BCC6C00736B56 /* UITableViewDataSource_LongPreeable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDataSource_LongPreeable.h; sourceTree = "<group>"; };
+		758D38431C9BCC6C00736B56 /* UITableView+LongPressTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LongPressTable.h"; sourceTree = "<group>"; };
+		758D38441C9BCC6C00736B56 /* UITableView+LongPressTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LongPressTable.m"; sourceTree = "<group>"; };
+		758D38481C9BCF8900736B56 /* UIButton+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+category.h"; sourceTree = "<group>"; };
+		758D38491C9BCF8900736B56 /* UIButton+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+category.m"; sourceTree = "<group>"; };
+		75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F701DA1C437E2D00661E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701F31C437E2D00661E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701FE1C437E2D00661E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758D38251C9BCB0C00736B56 /* LongPressTable */ = {
+			isa = PBXGroup;
+			children = (
+				758D383F1C9BCC6C00736B56 /* LongPressTable */,
+				758D38261C9BCB0C00736B56 /* AppDelegate.h */,
+				758D38271C9BCB0C00736B56 /* AppDelegate.m */,
+				758D38281C9BCB0C00736B56 /* Assets.xcassets */,
+				758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */,
+				758D382B1C9BCB0C00736B56 /* Info.plist */,
+				758D382C1C9BCB0C00736B56 /* main.m */,
+				758D382D1C9BCB0C00736B56 /* ViewController.h */,
+				758D382E1C9BCB0C00736B56 /* ViewController.m */,
+			);
+			path = LongPressTable;
+			sourceTree = "<group>";
+		};
+		758D383F1C9BCC6C00736B56 /* LongPressTable */ = {
+			isa = PBXGroup;
+			children = (
+				758D38401C9BCC6C00736B56 /* LongPressTableHelper.h */,
+				758D38411C9BCC6C00736B56 /* LongPressTableHelper.m */,
+				758D38421C9BCC6C00736B56 /* UITableViewDataSource_LongPreeable.h */,
+				758D38431C9BCC6C00736B56 /* UITableView+LongPressTable.h */,
+				758D38441C9BCC6C00736B56 /* UITableView+LongPressTable.m */,
+				758D38481C9BCF8900736B56 /* UIButton+category.h */,
+				758D38491C9BCF8900736B56 /* UIButton+category.m */,
+			);
+			path = LongPressTable;
+			sourceTree = "<group>";
+		};
+		75F701D41C437E2D00661E64 = {
+			isa = PBXGroup;
+			children = (
+				758D38251C9BCB0C00736B56 /* LongPressTable */,
+				75F701DE1C437E2D00661E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F701DE1C437E2D00661E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */,
+				75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
+				75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F701DC1C437E2D00661E64 /* LongPressTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F7020A1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTable" */;
+			buildPhases = (
+				75F701D91C437E2D00661E64 /* Sources */,
+				75F701DA1C437E2D00661E64 /* Frameworks */,
+				75F701DB1C437E2D00661E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressTable;
+			productName = text123;
+			productReference = 75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F701F51C437E2D00661E64 /* LongPressTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F7020D1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTableTests" */;
+			buildPhases = (
+				75F701F21C437E2D00661E64 /* Sources */,
+				75F701F31C437E2D00661E64 /* Frameworks */,
+				75F701F41C437E2D00661E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F701F81C437E2D00661E64 /* PBXTargetDependency */,
+			);
+			name = LongPressTableTests;
+			productName = text123Tests;
+			productReference = 75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75F702001C437E2D00661E64 /* LongPressTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F702101C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTableUITests" */;
+			buildPhases = (
+				75F701FD1C437E2D00661E64 /* Sources */,
+				75F701FE1C437E2D00661E64 /* Frameworks */,
+				75F701FF1C437E2D00661E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F702031C437E2D00661E64 /* PBXTargetDependency */,
+			);
+			name = LongPressTableUITests;
+			productName = text123UITests;
+			productReference = 75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F701D51C437E2D00661E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiuhao;
+				TargetAttributes = {
+					75F701DC1C437E2D00661E64 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					75F701F51C437E2D00661E64 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 75F701DC1C437E2D00661E64;
+					};
+					75F702001C437E2D00661E64 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 75F701DC1C437E2D00661E64;
+					};
+				};
+			};
+			buildConfigurationList = 75F701D81C437E2D00661E64 /* Build configuration list for PBXProject "LongPressTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75F701D41C437E2D00661E64;
+			productRefGroup = 75F701DE1C437E2D00661E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F701DC1C437E2D00661E64 /* LongPressTable */,
+				75F701F51C437E2D00661E64 /* LongPressTableTests */,
+				75F702001C437E2D00661E64 /* LongPressTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F701DB1C437E2D00661E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758D38361C9BCB0C00736B56 /* Assets.xcassets in Resources */,
+				758D38371C9BCB0C00736B56 /* LaunchScreen.storyboard in Resources */,
+				758D38381C9BCB0C00736B56 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701F41C437E2D00661E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701FF1C437E2D00661E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F701D91C437E2D00661E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758D38461C9BCC6C00736B56 /* UITableView+LongPressTable.m in Sources */,
+				758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */,
+				758D38391C9BCB0C00736B56 /* main.m in Sources */,
+				758D384A1C9BCF8900736B56 /* UIButton+category.m in Sources */,
+				758D38451C9BCC6C00736B56 /* LongPressTableHelper.m in Sources */,
+				758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701F21C437E2D00661E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F701FD1C437E2D00661E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F701F81C437E2D00661E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F701DC1C437E2D00661E64 /* LongPressTable */;
+			targetProxy = 75F701F71C437E2D00661E64 /* PBXContainerItemProxy */;
+		};
+		75F702031C437E2D00661E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F701DC1C437E2D00661E64 /* LongPressTable */;
+			targetProxy = 75F702021C437E2D00661E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758D382A1C9BCB0C00736B56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75F702081C437E2E00661E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75F702091C437E2E00661E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F7020B1C437E2E00661E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		75F7020C1C437E2E00661E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+		75F7020E1C437E2E00661E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = text123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123Tests;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressTable.temp_caseinsensitive_rename.app/LongPressTable.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		75F7020F1C437E2E00661E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = text123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123Tests;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressTable.temp_caseinsensitive_rename.app/LongPressTable.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		75F702111C437E2E00661E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = text123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123UITests;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = text123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		75F702121C437E2E00661E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = text123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123UITests;
+				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = text123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F701D81C437E2D00661E64 /* Build configuration list for PBXProject "LongPressTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F702081C437E2E00661E64 /* Debug */,
+				75F702091C437E2E00661E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F7020A1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F7020B1C437E2E00661E64 /* Debug */,
+				75F7020C1C437E2E00661E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F7020D1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F7020E1C437E2E00661E64 /* Debug */,
+				75F7020F1C437E2E00661E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F702101C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F702111C437E2E00661E64 /* Debug */,
+				75F702121C437E2E00661E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F701D51C437E2D00661E64 /* Project object */;
+}
