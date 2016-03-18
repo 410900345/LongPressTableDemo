@@ -1,5 +1,5 @@
 # LongPressTableDemo
-长按删除,tableviewCell
+长按删除tableviewCell
 #目的
 适用于一些页面,滑动事件被占用的情况,还的去做滑动删除
 #集成方法
@@ -18,9 +18,3 @@ tableView.longPressTableAble = YES;
 ```
 集成成功
 
-使用完最好进行
-```
-- (void)dealloc{
-    m_tableView.longPressTableAble = NO;
-}
-```
