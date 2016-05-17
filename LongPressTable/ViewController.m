@@ -33,7 +33,8 @@
 
 - (void)dealloc
 {
-    m_tableView.longPressTableAble = NO;
+    NSLog(@"----dealloc");
+//    m_tableView.longPressTableAble = NO;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -79,7 +80,7 @@
     if(cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"Cell %ld", (long)indexPath.row];
     cell.textLabel.textColor = [UIColor blueColor];
     return cell;
 }

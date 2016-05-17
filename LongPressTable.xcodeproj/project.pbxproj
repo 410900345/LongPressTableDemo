@@ -16,6 +16,7 @@
 		758D38451C9BCC6C00736B56 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38411C9BCC6C00736B56 /* LongPressTableHelper.m */; };
 		758D38461C9BCC6C00736B56 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38441C9BCC6C00736B56 /* UITableView+LongPressTable.m */; };
 		758D384A1C9BCF8900736B56 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38491C9BCF8900736B56 /* UIButton+category.m */; };
+		75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD75B51C9BDDE600FE2131 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		758D38441C9BCC6C00736B56 /* UITableView+LongPressTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LongPressTable.m"; sourceTree = "<group>"; };
 		758D38481C9BCF8900736B56 /* UIButton+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+category.h"; sourceTree = "<group>"; };
 		758D38491C9BCF8900736B56 /* UIButton+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+category.m"; sourceTree = "<group>"; };
+		75AD75B41C9BDDE600FE2131 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		75AD75B51C9BDDE600FE2131 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +90,8 @@
 				758D383F1C9BCC6C00736B56 /* LongPressTable */,
 				758D38261C9BCB0C00736B56 /* AppDelegate.h */,
 				758D38271C9BCB0C00736B56 /* AppDelegate.m */,
+				75AD75B41C9BDDE600FE2131 /* MainViewController.h */,
+				75AD75B51C9BDDE600FE2131 /* MainViewController.m */,
 				758D38281C9BCB0C00736B56 /* Assets.xcassets */,
 				758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */,
 				758D382B1C9BCB0C00736B56 /* Info.plist */,
@@ -263,6 +268,7 @@
 				758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */,
 				758D38391C9BCB0C00736B56 /* main.m in Sources */,
 				758D384A1C9BCF8900736B56 /* UIButton+category.m in Sources */,
+				75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */,
 				758D38451C9BCC6C00736B56 /* LongPressTableHelper.m in Sources */,
 				758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */,
 			);

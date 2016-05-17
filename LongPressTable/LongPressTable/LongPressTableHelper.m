@@ -21,7 +21,7 @@ static int kObservingTableViewLayoutContext;
 
 -(void)dealloc
 {
-
+     NSLog(@"LongPressTableHelper------------");
 }
 
 - (id)initWithCollectionView:(UITableView *)tableView
@@ -166,6 +166,7 @@ static int kObservingTableViewLayoutContext;
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
+    NSLog(@"------------");
     if (context == &kObservingTableViewLayoutContext) {
         if(_editingIndexPath)
         {
