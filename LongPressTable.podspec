@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.platform     =  :ios, '6.0'
   s.source       = {:git => 'https://github.com/410900345/LongPressTableDemo.git', :tag => s.version} 
-  s.source_files = 'LongPressTable/**/*.{h,m}'
+  s.source_files = 'LongPressTableCell/**/*.{h,m}'
   s.frameworks   =  'Foundation','CoreGraphics', 'UIKit'
   s.requires_arc = true
   
