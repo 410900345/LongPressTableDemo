@@ -3,7 +3,11 @@
 #目的
 适用于一些页面,滑动事件被占用的情况,还的去做滑动删除
 #集成方法
-加入demo中的`LongPressTable`文件夹
+1.Podfile
+```
+pod 'LongPressTable'
+```
+2.加入demo中的`LongPressTable`文件夹
 ```
 #import "UITableView+LongPressTable.h"
 #import "UITableViewDataSource_LongPreeable.h"
