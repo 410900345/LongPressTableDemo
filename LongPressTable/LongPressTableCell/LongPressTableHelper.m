@@ -21,7 +21,7 @@ static int kObservingTableViewLayoutContext;
 
 -(void)dealloc
 {
-     NSLog(@"LongPressTableHelper------------");
+//     NSLog(@"LongPressTableHelper------------");
 }
 
 - (id)initWithCollectionView:(UITableView *)tableView
