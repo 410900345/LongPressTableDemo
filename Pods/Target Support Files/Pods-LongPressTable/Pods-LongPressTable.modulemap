@@ -1,6 +1,0 @@
-framework module Pods_LongPressTable {
-  umbrella header "Pods-LongPressTable-umbrella.h"
-
-  export *
-  module * { export * }
-}

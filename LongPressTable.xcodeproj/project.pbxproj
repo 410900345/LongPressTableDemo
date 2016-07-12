@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011E140773E7AFF7A852B691 /* Pods_LongPressTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917A50919A01645704629B /* Pods_LongPressTable.framework */; };
+		22FA8BA561A0CF85A4509087 /* libPods-LongPressTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3B959D2557D38AA622CADB /* libPods-LongPressTable.a */; };
 		7536CD8C1CEB19CE009D1B18 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */; };
 		7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD871CEB19CE009D1B18 /* UIButton+category.m */; };
 		7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		17D1270835268999F6D34ADF /* Pods-LongPressTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.debug.xcconfig"; sourceTree = "<group>"; };
-		28917A50919A01645704629B /* Pods_LongPressTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LongPressTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3B959D2557D38AA622CADB /* libPods-LongPressTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LongPressTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605DDBEC1562E4DDBF62DA26 /* Pods-LongPressTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.release.xcconfig"; sourceTree = "<group>"; };
 		7536CD841CEB19CE009D1B18 /* LongPressTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTableHelper.h; sourceTree = "<group>"; };
 		7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTableHelper.m; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		758D382E1C9BCB0C00736B56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75AD75B41C9BDDE600FE2131 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		75AD75B51C9BDDE600FE2131 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F701DD1C437E2D00661E64 /* LongPressTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011E140773E7AFF7A852B691 /* Pods_LongPressTable.framework in Frameworks */,
+				22FA8BA561A0CF85A4509087 /* libPods-LongPressTable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 		482ED1798C1CBF5F52CFC858 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28917A50919A01645704629B /* Pods_LongPressTable.framework */,
+				2A3B959D2557D38AA622CADB /* libPods-LongPressTable.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 		75F701DE1C437E2D00661E64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */,
+				75F701DD1C437E2D00661E64 /* LongPressTable.app */,
 				75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
 				75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
 			);
@@ -167,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F7020A1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTable" */;
 			buildPhases = (
-				7B225BB5C6174558DDEB8793 /* [CP] Check Pods Manifest.lock */,
+				F1FC8D686EE3AC2718EE7673 /* [CP] Check Pods Manifest.lock */,
 				75F701D91C437E2D00661E64 /* Sources */,
 				75F701DA1C437E2D00661E64 /* Frameworks */,
 				75F701DB1C437E2D00661E64 /* Resources */,
-				74D18B36589CECB171B86882 /* [CP] Embed Pods Frameworks */,
-				50574DE0AA97F60AB51E6E2C /* [CP] Copy Pods Resources */,
+				A8FBF25D1FD0BAF26D257ED0 /* [CP] Embed Pods Frameworks */,
+				7BDB5CC8029D3E91538BA5DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,7 +180,7 @@
 			);
 			name = LongPressTable;
 			productName = text123;
-			productReference = 75F701DD1C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.app */;
+			productReference = 75F701DD1C437E2D00661E64 /* LongPressTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 		75F701F51C437E2D00661E64 /* LongPressTableTests */ = {
@@ -289,7 +289,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50574DE0AA97F60AB51E6E2C /* [CP] Copy Pods Resources */ = {
+		7BDB5CC8029D3E91538BA5DD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,7 +304,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		74D18B36589CECB171B86882 /* [CP] Embed Pods Frameworks */ = {
+		A8FBF25D1FD0BAF26D257ED0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,7 +319,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B225BB5C6174558DDEB8793 /* [CP] Check Pods Manifest.lock */ = {
+		F1FC8D686EE3AC2718EE7673 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -466,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

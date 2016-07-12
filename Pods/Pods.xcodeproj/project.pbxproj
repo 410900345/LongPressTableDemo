@@ -7,39 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		117FE74B0EB35148D2A5E7D1660515D5 /* Pods-LongPressTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2307CC446490FDE3EFC9A862E48687AF /* Pods-LongPressTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83BA66E57BAFA037B889AE685830F9C2 /* Pods-LongPressTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E5B748DBA741486D346B8E96AEE449 /* Pods-LongPressTable-dummy.m */; };
-		87293D310D08F45B6FC018ECA545E210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		800A264F3B9AB4E49E9FFB13D6B75107 /* Pods-LongPressTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CA3530C11676E6365EEA49B65CAEFA /* Pods-LongPressTable-dummy.m */; };
+		C21EB0DC215C5871C32ACB45A443F23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0142FA46A9A27B538291CAB1B79FCFC8 /* Pods-LongPressTable-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LongPressTable-frameworks.sh"; sourceTree = "<group>"; };
-		2307CC446490FDE3EFC9A862E48687AF /* Pods-LongPressTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LongPressTable-umbrella.h"; sourceTree = "<group>"; };
-		43C4B22B65CE04C0AA55254A6F5A0B81 /* Pods_LongPressTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LongPressTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47E5B748DBA741486D346B8E96AEE449 /* Pods-LongPressTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LongPressTable-dummy.m"; sourceTree = "<group>"; };
-		589047B043FD172F2C693A2C7283C0C9 /* Pods-LongPressTable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LongPressTable-acknowledgements.markdown"; sourceTree = "<group>"; };
-		827AC387AA3EE7D37D7C1F16E31569E8 /* Pods-LongPressTable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LongPressTable-acknowledgements.plist"; sourceTree = "<group>"; };
+		55CA3530C11676E6365EEA49B65CAEFA /* Pods-LongPressTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LongPressTable-dummy.m"; sourceTree = "<group>"; };
+		60BC16E1261CC5406DBA33675026B161 /* Pods-LongPressTable-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LongPressTable-frameworks.sh"; sourceTree = "<group>"; };
+		628A2235AD4686D56AFC7B2FA1C323BE /* Pods-LongPressTable-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LongPressTable-resources.sh"; sourceTree = "<group>"; };
+		727AADCEFAE17FD549CA5F3FCDB4BFE0 /* libPods-LongPressTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LongPressTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A0058B7A45BB5F2171CF83F185EF502 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C861AC1A96FBEA41B855EABDBB0B5B2C /* Pods-LongPressTable-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LongPressTable-resources.sh"; sourceTree = "<group>"; };
-		C9F069CC1DE0FE96EB7F79387568C77B /* Pods-LongPressTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LongPressTable.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8302194C0BC8454691C2F6F816851A /* Pods-LongPressTable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LongPressTable-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5865F006C2412E3CD9335921F121D9B /* Pods-LongPressTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LongPressTable.release.xcconfig"; sourceTree = "<group>"; };
+		C8EA70B40BB79B8F08A94D38C804FA0B /* Pods-LongPressTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LongPressTable.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D05E12D4B8964E7DB9E454DC0A588BE8 /* Pods-LongPressTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LongPressTable.modulemap"; sourceTree = "<group>"; };
-		E7846799F64F1FF9F8D3D316338AAADF /* Pods-LongPressTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LongPressTable.release.xcconfig"; sourceTree = "<group>"; };
+		F6B214180A1FCFF0AC184F911DFCF45E /* Pods-LongPressTable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LongPressTable-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19D33AB9E0F1AC74F762B60499FB767A /* Frameworks */ = {
+		B43B6E7680766CAE9276F7E54E53A409 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87293D310D08F45B6FC018ECA545E210 /* Foundation.framework in Frameworks */,
+				C21EB0DC215C5871C32ACB45A443F23A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D582745575A68B3217595F3DA0F4F85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				764E6A0314FB96A1CED4558AE0733897 /* Pods-LongPressTable */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,20 +52,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		48CAEE3DBA35A29FBD4C6049F8A1ADEF /* Targets Support Files */ = {
+		764E6A0314FB96A1CED4558AE0733897 /* Pods-LongPressTable */ = {
 			isa = PBXGroup;
 			children = (
-				F8FD5D10856D6C38EDE35ABCF0FAC8E9 /* Pods-LongPressTable */,
+				AF8302194C0BC8454691C2F6F816851A /* Pods-LongPressTable-acknowledgements.markdown */,
+				F6B214180A1FCFF0AC184F911DFCF45E /* Pods-LongPressTable-acknowledgements.plist */,
+				55CA3530C11676E6365EEA49B65CAEFA /* Pods-LongPressTable-dummy.m */,
+				60BC16E1261CC5406DBA33675026B161 /* Pods-LongPressTable-frameworks.sh */,
+				628A2235AD4686D56AFC7B2FA1C323BE /* Pods-LongPressTable-resources.sh */,
+				C8EA70B40BB79B8F08A94D38C804FA0B /* Pods-LongPressTable.debug.xcconfig */,
+				C5865F006C2412E3CD9335921F121D9B /* Pods-LongPressTable.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6EAED08EABBD4E58FAD00FFC1CE4BCD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				43C4B22B65CE04C0AA55254A6F5A0B81 /* Pods_LongPressTable.framework */,
-			);
-			name = Products;
+			name = "Pods-LongPressTable";
+			path = "Target Support Files/Pods-LongPressTable";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -69,8 +72,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6EAED08EABBD4E58FAD00FFC1CE4BCD0 /* Products */,
-				48CAEE3DBA35A29FBD4C6049F8A1ADEF /* Targets Support Files */,
+				F5150AA0B80CBB64951F1FB2F46949BC /* Products */,
+				3D582745575A68B3217595F3DA0F4F85 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,45 +85,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8FD5D10856D6C38EDE35ABCF0FAC8E9 /* Pods-LongPressTable */ = {
+		F5150AA0B80CBB64951F1FB2F46949BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A0058B7A45BB5F2171CF83F185EF502 /* Info.plist */,
-				D05E12D4B8964E7DB9E454DC0A588BE8 /* Pods-LongPressTable.modulemap */,
-				589047B043FD172F2C693A2C7283C0C9 /* Pods-LongPressTable-acknowledgements.markdown */,
-				827AC387AA3EE7D37D7C1F16E31569E8 /* Pods-LongPressTable-acknowledgements.plist */,
-				47E5B748DBA741486D346B8E96AEE449 /* Pods-LongPressTable-dummy.m */,
-				0142FA46A9A27B538291CAB1B79FCFC8 /* Pods-LongPressTable-frameworks.sh */,
-				C861AC1A96FBEA41B855EABDBB0B5B2C /* Pods-LongPressTable-resources.sh */,
-				2307CC446490FDE3EFC9A862E48687AF /* Pods-LongPressTable-umbrella.h */,
-				C9F069CC1DE0FE96EB7F79387568C77B /* Pods-LongPressTable.debug.xcconfig */,
-				E7846799F64F1FF9F8D3D316338AAADF /* Pods-LongPressTable.release.xcconfig */,
+				727AADCEFAE17FD549CA5F3FCDB4BFE0 /* libPods-LongPressTable.a */,
 			);
-			name = "Pods-LongPressTable";
-			path = "Target Support Files/Pods-LongPressTable";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		B23874278450FC95C02C8EEFF29DBDE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				117FE74B0EB35148D2A5E7D1660515D5 /* Pods-LongPressTable-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		AA9DBC5056A6CB454169107AAE889D55 /* Pods-LongPressTable */ = {
+		53F17F6C5E70C5FBB4287D1CAF838EC5 /* Pods-LongPressTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3634A2B8759F84F5A738542CBD5DB3D1 /* Build configuration list for PBXNativeTarget "Pods-LongPressTable" */;
+			buildConfigurationList = 1E81E48C37C78A6D3321BA42461E5925 /* Build configuration list for PBXNativeTarget "Pods-LongPressTable" */;
 			buildPhases = (
-				BC5A5554361EDA805786592008A65CA2 /* Sources */,
-				19D33AB9E0F1AC74F762B60499FB767A /* Frameworks */,
-				B23874278450FC95C02C8EEFF29DBDE9 /* Headers */,
+				4E7BBCEBD1521C294B744B8D3006A6F6 /* Sources */,
+				B43B6E7680766CAE9276F7E54E53A409 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,8 +109,8 @@
 			);
 			name = "Pods-LongPressTable";
 			productName = "Pods-LongPressTable";
-			productReference = 43C4B22B65CE04C0AA55254A6F5A0B81 /* Pods_LongPressTable.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 727AADCEFAE17FD549CA5F3FCDB4BFE0 /* libPods-LongPressTable.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,94 +129,70 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6EAED08EABBD4E58FAD00FFC1CE4BCD0 /* Products */;
+			productRefGroup = F5150AA0B80CBB64951F1FB2F46949BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA9DBC5056A6CB454169107AAE889D55 /* Pods-LongPressTable */,
+				53F17F6C5E70C5FBB4287D1CAF838EC5 /* Pods-LongPressTable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC5A5554361EDA805786592008A65CA2 /* Sources */ = {
+		4E7BBCEBD1521C294B744B8D3006A6F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BA66E57BAFA037B889AE685830F9C2 /* Pods-LongPressTable-dummy.m in Sources */,
+				800A264F3B9AB4E49E9FFB13D6B75107 /* Pods-LongPressTable-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		53E85A50A6D1321AD515E8120AE31D76 /* Debug */ = {
+		05C410E823C49178D2613339CD2D32E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F069CC1DE0FE96EB7F79387568C77B /* Pods-LongPressTable.debug.xcconfig */;
+			baseConfigurationReference = C8EA70B40BB79B8F08A94D38C804FA0B /* Pods-LongPressTable.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LongPressTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LongPressTable/Pods-LongPressTable.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LongPressTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		67734D02A956CCF7F228ABA79BFA3278 /* Release */ = {
+		1AA1AAB61B96E117684FA2DC533FC499 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7846799F64F1FF9F8D3D316338AAADF /* Pods-LongPressTable.release.xcconfig */;
+			baseConfigurationReference = C5865F006C2412E3CD9335921F121D9B /* Pods-LongPressTable.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LongPressTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LongPressTable/Pods-LongPressTable.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LongPressTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,14 +227,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -318,20 +275,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1E81E48C37C78A6D3321BA42461E5925 /* Build configuration list for PBXNativeTarget "Pods-LongPressTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FD87D359382A37B07149A12641B965 /* Debug */,
-				F594C655D48020EC34B00AA63E001773 /* Release */,
+				05C410E823C49178D2613339CD2D32E1 /* Debug */,
+				1AA1AAB61B96E117684FA2DC533FC499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3634A2B8759F84F5A738542CBD5DB3D1 /* Build configuration list for PBXNativeTarget "Pods-LongPressTable" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53E85A50A6D1321AD515E8120AE31D76 /* Debug */,
-				67734D02A956CCF7F228ABA79BFA3278 /* Release */,
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
