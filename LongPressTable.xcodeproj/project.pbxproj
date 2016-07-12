@@ -483,7 +483,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julong.PGS;
-				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				PRODUCT_NAME = LongPressTable;
 				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
 			};
 			name = Debug;
@@ -497,7 +497,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julong.PGS;
-				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				PRODUCT_NAME = LongPressTable;
 				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
 			};
 			name = Release;
