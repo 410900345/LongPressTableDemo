@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011E140773E7AFF7A852B691 /* Pods_LongPressTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917A50919A01645704629B /* Pods_LongPressTable.framework */; };
 		7536CD8C1CEB19CE009D1B18 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */; };
 		7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD871CEB19CE009D1B18 /* UIButton+category.m */; };
 		7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */; };
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17D1270835268999F6D34ADF /* Pods-LongPressTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.debug.xcconfig"; sourceTree = "<group>"; };
+		28917A50919A01645704629B /* Pods_LongPressTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LongPressTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DDBEC1562E4DDBF62DA26 /* Pods-LongPressTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.release.xcconfig"; sourceTree = "<group>"; };
 		7536CD841CEB19CE009D1B18 /* LongPressTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTableHelper.h; sourceTree = "<group>"; };
 		7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTableHelper.m; sourceTree = "<group>"; };
 		7536CD861CEB19CE009D1B18 /* UIButton+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+category.h"; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011E140773E7AFF7A852B691 /* Pods_LongPressTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482ED1798C1CBF5F52CFC858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28917A50919A01645704629B /* Pods_LongPressTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7536CD831CEB19CE009D1B18 /* LongPressTableCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +136,8 @@
 			children = (
 				758D38251C9BCB0C00736B56 /* LongPressTable */,
 				75F701DE1C437E2D00661E64 /* Products */,
+				F0B9053DACE27EF46AB8E061 /* Pods */,
+				482ED1798C1CBF5F52CFC858 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +151,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F0B9053DACE27EF46AB8E061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D1270835268999F6D34ADF /* Pods-LongPressTable.debug.xcconfig */,
+				605DDBEC1562E4DDBF62DA26 /* Pods-LongPressTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F7020A1C437E2E00661E64 /* Build configuration list for PBXNativeTarget "LongPressTable" */;
 			buildPhases = (
+				7B225BB5C6174558DDEB8793 /* [CP] Check Pods Manifest.lock */,
 				75F701D91C437E2D00661E64 /* Sources */,
 				75F701DA1C437E2D00661E64 /* Frameworks */,
 				75F701DB1C437E2D00661E64 /* Resources */,
+				74D18B36589CECB171B86882 /* [CP] Embed Pods Frameworks */,
+				50574DE0AA97F60AB51E6E2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +287,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50574DE0AA97F60AB51E6E2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D18B36589CECB171B86882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B225BB5C6174558DDEB8793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75F701D91C437E2D00661E64 /* Sources */ = {
@@ -401,23 +476,29 @@
 		};
 		75F7020B1C437E2E00661E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D1270835268999F6D34ADF /* Pods-LongPressTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Wealthkey (Beijing) Science And Technology Co., Ltd.";
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JLRC.ios-PGS";
 				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
 			};
 			name = Debug;
 		};
 		75F7020C1C437E2E00661E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605DDBEC1562E4DDBF62DA26 /* Pods-LongPressTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Wealthkey (Beijing) Science And Technology Co., Ltd.";
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jiuhaoHealth.text123;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JLRC.ios-PGS";
 				PRODUCT_NAME = LongPressTable.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
 			};
 			name = Release;
 		};
