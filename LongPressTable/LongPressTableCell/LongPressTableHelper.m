@@ -14,8 +14,7 @@
 #define kDeleteButtonHeight  44
 static int kObservingTableViewLayoutContext;
 
-@implementation LongPressTableHelper
-{
+@implementation LongPressTableHelper {
     NSIndexPath *_editingIndexPath;
 }
 
