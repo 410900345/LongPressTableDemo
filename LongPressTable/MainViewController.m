@@ -20,8 +20,7 @@
     [self.view addSubview:btn];
 }
 
--(void)btnClick
-{
+-(void)btnClick {
     ViewController *vc = [[ViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }

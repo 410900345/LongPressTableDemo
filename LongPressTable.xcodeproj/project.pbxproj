@@ -11,6 +11,9 @@
 		7536CD8C1CEB19CE009D1B18 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */; };
 		7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD871CEB19CE009D1B18 /* UIButton+category.m */; };
 		7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */; };
+		753ACC191D65538A00C0CDE4 /* UITextView+LongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */; };
+		753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */; };
+		753ACC281D65581400C0CDE4 /* UITextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC271D65581400C0CDE4 /* UITextView+Extras.m */; };
 		758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38271C9BCB0C00736B56 /* AppDelegate.m */; };
 		758D38361C9BCB0C00736B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758D38281C9BCB0C00736B56 /* Assets.xcassets */; };
 		758D38371C9BCB0C00736B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */; };
@@ -49,6 +52,12 @@
 		7536CD891CEB19CE009D1B18 /* UITableView+LongPressTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LongPressTable.h"; sourceTree = "<group>"; };
 		7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LongPressTable.m"; sourceTree = "<group>"; };
 		7536CD8B1CEB19CE009D1B18 /* UITableViewDataSource_LongPreeable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDataSource_LongPreeable.h; sourceTree = "<group>"; };
+		753ACC171D65538A00C0CDE4 /* UITextView+LongPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LongPress.h"; sourceTree = "<group>"; };
+		753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LongPress.m"; sourceTree = "<group>"; };
+		753ACC201D65574900C0CDE4 /* LongPressTextViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTextViewHelper.h; sourceTree = "<group>"; };
+		753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTextViewHelper.m; sourceTree = "<group>"; };
+		753ACC261D65581400C0CDE4 /* UITextView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extras.h"; sourceTree = "<group>"; };
+		753ACC271D65581400C0CDE4 /* UITextView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extras.m"; sourceTree = "<group>"; };
 		758D38261C9BCB0C00736B56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		758D38271C9BCB0C00736B56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		758D38281C9BCB0C00736B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,9 +122,23 @@
 			path = LongPressTableCell;
 			sourceTree = "<group>";
 		};
+		753ACC161D65536000C0CDE4 /* LongPressTextView */ = {
+			isa = PBXGroup;
+			children = (
+				753ACC171D65538A00C0CDE4 /* UITextView+LongPress.h */,
+				753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */,
+				753ACC201D65574900C0CDE4 /* LongPressTextViewHelper.h */,
+				753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */,
+			);
+			path = LongPressTextView;
+			sourceTree = "<group>";
+		};
 		758D38251C9BCB0C00736B56 /* LongPressTable */ = {
 			isa = PBXGroup;
 			children = (
+				753ACC261D65581400C0CDE4 /* UITextView+Extras.h */,
+				753ACC271D65581400C0CDE4 /* UITextView+Extras.m */,
+				753ACC161D65536000C0CDE4 /* LongPressTextView */,
 				7536CD831CEB19CE009D1B18 /* LongPressTableCell */,
 				758D38261C9BCB0C00736B56 /* AppDelegate.h */,
 				758D38271C9BCB0C00736B56 /* AppDelegate.m */,
@@ -347,7 +370,10 @@
 				7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */,
 				75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */,
 				7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */,
+				753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */,
 				758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */,
+				753ACC281D65581400C0CDE4 /* UITextView+Extras.m in Sources */,
+				753ACC191D65538A00C0CDE4 /* UITextView+LongPress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
