@@ -25,8 +25,8 @@
     return  [self getHelper].enabled;
 }
 
--(void)setLongPressTableAble:(BOOL)longPressTableAble {
-    [self getHelper].enabled = longPressTableAble;
+- (void)setLongPressTextViewAble:(BOOL)able {
+    [self getHelper].enabled = able;
 }
 
 @end

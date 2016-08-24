@@ -7,32 +7,42 @@
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Pods-LongPressTable.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
+		</dict>
+		<key>SSCategoriesSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>771DC7C1D222FB904359850208D28202</key>
+		<key>2133B43B5916BF4D13FA6737C2E2A0B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29BB5E579EA66EE05B514236EA125B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63CAFFC290635ED09808447EFB58A9C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F98C3894AB5817CC3D6C5FCEF9574BF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -33,9 +33,9 @@
     [_m_textView addGestureRecognizer:_tapGestureRecognizer];
     
     _m_selectionView = [[UILabel alloc]initWithFrame:CGRectZero];
-    _m_selectionView.font = [UIFont systemFontOfSize: _m_textView.font.pointSize];
-    _m_selectionView.backgroundColor = [UIColor grayColor];
-    _m_selectionView.textColor = [UIColor redColor];
+    _m_selectionView.font = [UIFont systemFontOfSize: 16];
+    _m_selectionView.backgroundColor = [UIColor whiteColor];
+    _m_selectionView.textColor = [UIColor blueColor];
     _m_selectionView.adjustsFontSizeToFitWidth = YES;
     [_m_textView addSubview:_m_selectionView];
 }
@@ -48,8 +48,8 @@
     _enabled = enabled;
     _tapGestureRecognizer.enabled = enabled;
     _tapGestureRecognizer.enabled =  enabled;
-    _m_textView.showsVerticalScrollIndicator = NO;
-    _m_textView.editable = NO;
+    _m_textView.showsVerticalScrollIndicator = !enabled;
+    _m_textView.editable = !enabled;
 }
 
 #pragma mark - Gesture Handling
@@ -62,8 +62,7 @@
         UIBezierPath* selectionPathInTextView = [_m_textView selectionPathWithGranularity:granularity atIndex:idx];
         CGRect newFrame = CGPathGetPathBoundingBox(selectionPathInTextView.CGPath);
         NSRange selectRane = [_m_textView.myTextRange rangeValue];
-        if (selectRane.location == NSNotFound)
-        {
+        if (selectRane.location == NSNotFound) {
             [self dismissView];
             return;
         }
@@ -71,7 +70,8 @@
         //         NSString *sre  = [m_textView.text substringWithRange:NSMakeRange(idx, 1)];
         //        m_selectionView.frame = [self.view convertRect:newFrame fromView:m_textView];
         _m_selectionView.frame = newFrame;
-        _m_selectionView.text = srTxt;
+        _m_selectionView.text = @"123456";
+         _m_selectionView.textColor = [UIColor blueColor];
         [self showFloatViewWithData];
     }
 }

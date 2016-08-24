@@ -10,4 +10,6 @@
 
 @interface UITextView (LongPress)
 
+@property (nonatomic) BOOL longPressTextViewAble;
+
 @end

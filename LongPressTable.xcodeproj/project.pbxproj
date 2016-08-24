@@ -56,8 +56,8 @@
 		753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LongPress.m"; sourceTree = "<group>"; };
 		753ACC201D65574900C0CDE4 /* LongPressTextViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTextViewHelper.h; sourceTree = "<group>"; };
 		753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTextViewHelper.m; sourceTree = "<group>"; };
-		753ACC261D65581400C0CDE4 /* UITextView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extras.h"; sourceTree = "<group>"; };
-		753ACC271D65581400C0CDE4 /* UITextView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extras.m"; sourceTree = "<group>"; };
+		753ACC261D65581400C0CDE4 /* UITextView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+Extras.h"; path = "../UITextView+Extras.h"; sourceTree = "<group>"; };
+		753ACC271D65581400C0CDE4 /* UITextView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Extras.m"; path = "../UITextView+Extras.m"; sourceTree = "<group>"; };
 		758D38261C9BCB0C00736B56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		758D38271C9BCB0C00736B56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		758D38281C9BCB0C00736B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +125,8 @@
 		753ACC161D65536000C0CDE4 /* LongPressTextView */ = {
 			isa = PBXGroup;
 			children = (
+				753ACC261D65581400C0CDE4 /* UITextView+Extras.h */,
+				753ACC271D65581400C0CDE4 /* UITextView+Extras.m */,
 				753ACC171D65538A00C0CDE4 /* UITextView+LongPress.h */,
 				753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */,
 				753ACC201D65574900C0CDE4 /* LongPressTextViewHelper.h */,
@@ -136,8 +138,6 @@
 		758D38251C9BCB0C00736B56 /* LongPressTable */ = {
 			isa = PBXGroup;
 			children = (
-				753ACC261D65581400C0CDE4 /* UITextView+Extras.h */,
-				753ACC271D65581400C0CDE4 /* UITextView+Extras.m */,
 				753ACC161D65536000C0CDE4 /* LongPressTextView */,
 				7536CD831CEB19CE009D1B18 /* LongPressTableCell */,
 				758D38261C9BCB0C00736B56 /* AppDelegate.h */,

@@ -5,15 +5,23 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - SSCategoriesSDK (0.3.0):
+    - SSCategoriesSDK/SSFoundation (= 0.3.0)
+    - SSCategoriesSDK/SSUIKit (= 0.3.0)
+  - SSCategoriesSDK/SSFoundation (0.3.0):
+    - SSCategoriesSDK/SSUIKit
+  - SSCategoriesSDK/SSUIKit (0.3.0)
 
 DEPENDENCIES:
   - FMDB (~> 2.5)
   - SDWebImage (~> 3.7.5)
+  - SSCategoriesSDK
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SSCategoriesSDK: 81e0ffa89257f73f8af59fe86d4218399ed9cebb
 
-PODFILE CHECKSUM: 4bf559dc0c18ffd9bedad08dbde99e54dc0e2356
+PODFILE CHECKSUM: e10c65c97b7a2e3fb41a30dcdc3b71fe083a2d34
 
 COCOAPODS: 1.0.1

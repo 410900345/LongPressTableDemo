@@ -1,0 +1,1 @@
+../../../SSCategoriesSDK/SSCategoriesSDK/Classes/SSFoundation/NSDictionary+SSAdd.h

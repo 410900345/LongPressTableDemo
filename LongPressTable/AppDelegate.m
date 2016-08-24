@@ -22,7 +22,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    ViewController *mainVC = [[ViewController alloc] init];
+    MainViewController *mainVC = [[MainViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
 
     self.window.rootViewController = nav;
