@@ -7,5 +7,6 @@ target 'LongPressTable' do
 pod 'SDWebImage', '~> 3.7.5'
 pod 'FMDB', '~> 2.5'
 pod 'SSCategoriesSDK' #通用扩展
+pod 'CocoaLumberjack', '~> 2.3.0'
 
 end

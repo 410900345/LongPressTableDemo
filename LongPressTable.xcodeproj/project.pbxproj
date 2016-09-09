@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		22FA8BA561A0CF85A4509087 /* libPods-LongPressTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3B959D2557D38AA622CADB /* libPods-LongPressTable.a */; };
+		7502151E1D82666700321420 /* SNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7502151D1D82666700321420 /* SNLogger.m */; };
+		750215211D82974900321420 /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 750215201D82974900321420 /* SystemInfo.m */; };
+		750215241D82976600321420 /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 750215221D82976600321420 /* IPAddress.c */; };
 		7536CD8C1CEB19CE009D1B18 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */; };
 		7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD871CEB19CE009D1B18 /* UIButton+category.m */; };
 		7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */; };
@@ -21,6 +24,7 @@
 		758D38391C9BCB0C00736B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D382C1C9BCB0C00736B56 /* main.m */; };
 		758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D382E1C9BCB0C00736B56 /* ViewController.m */; };
 		75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD75B51C9BDDE600FE2131 /* MainViewController.m */; };
+		75E2CD611D82B84E0095D5B4 /* NSDate+PGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,12 @@
 		17D1270835268999F6D34ADF /* Pods-LongPressTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3B959D2557D38AA622CADB /* libPods-LongPressTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LongPressTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		605DDBEC1562E4DDBF62DA26 /* Pods-LongPressTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressTable/Pods-LongPressTable.release.xcconfig"; sourceTree = "<group>"; };
+		7502151C1D82666700321420 /* SNLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNLogger.h; sourceTree = "<group>"; };
+		7502151D1D82666700321420 /* SNLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNLogger.m; sourceTree = "<group>"; };
+		7502151F1D82974900321420 /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		750215201D82974900321420 /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		750215221D82976600321420 /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		750215231D82976600321420 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
 		7536CD841CEB19CE009D1B18 /* LongPressTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressTableHelper.h; sourceTree = "<group>"; };
 		7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTableHelper.m; sourceTree = "<group>"; };
 		7536CD861CEB19CE009D1B18 /* UIButton+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+category.h"; sourceTree = "<group>"; };
@@ -68,6 +78,8 @@
 		758D382E1C9BCB0C00736B56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75AD75B41C9BDDE600FE2131 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		75AD75B51C9BDDE600FE2131 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		75E2CD5F1D82B84E0095D5B4 /* NSDate+PGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PGAdd.h"; sourceTree = "<group>"; };
+		75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PGAdd.m"; sourceTree = "<group>"; };
 		75F701DD1C437E2D00661E64 /* LongPressTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +150,14 @@
 		758D38251C9BCB0C00736B56 /* LongPressTable */ = {
 			isa = PBXGroup;
 			children = (
+				75E2CD5F1D82B84E0095D5B4 /* NSDate+PGAdd.h */,
+				75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */,
+				750215221D82976600321420 /* IPAddress.c */,
+				750215231D82976600321420 /* IPAddress.h */,
+				7502151F1D82974900321420 /* SystemInfo.h */,
+				750215201D82974900321420 /* SystemInfo.m */,
+				7502151C1D82666700321420 /* SNLogger.h */,
+				7502151D1D82666700321420 /* SNLogger.m */,
 				753ACC161D65536000C0CDE4 /* LongPressTextView */,
 				7536CD831CEB19CE009D1B18 /* LongPressTableCell */,
 				758D38261C9BCB0C00736B56 /* AppDelegate.h */,
@@ -364,14 +384,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750215241D82976600321420 /* IPAddress.c in Sources */,
 				7536CD8C1CEB19CE009D1B18 /* LongPressTableHelper.m in Sources */,
 				758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */,
 				758D38391C9BCB0C00736B56 /* main.m in Sources */,
 				7536CD8D1CEB19CE009D1B18 /* UIButton+category.m in Sources */,
+				750215211D82974900321420 /* SystemInfo.m in Sources */,
 				75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */,
+				75E2CD611D82B84E0095D5B4 /* NSDate+PGAdd.m in Sources */,
 				7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */,
 				753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */,
 				758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */,
+				7502151E1D82666700321420 /* SNLogger.m in Sources */,
 				753ACC281D65581400C0CDE4 /* UITextView+Extras.m in Sources */,
 				753ACC191D65538A00C0CDE4 /* UITextView+LongPress.m in Sources */,
 			);
@@ -508,9 +532,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Wealthkey (Beijing) Science And Technology Co., Ltd.";
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.julong.PGS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobin.ncenglishPro;
 				PRODUCT_NAME = LongPressTable;
-				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
+				PROVISIONING_PROFILE = "53c0c621-323b-4c95-a8dc-32a33a66ae78";
 			};
 			name = Debug;
 		};
@@ -522,9 +546,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Wealthkey (Beijing) Science And Technology Co., Ltd.";
 				INFOPLIST_FILE = "$(SRCROOT)/LongPressTable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.julong.PGS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobin.ncenglishPro;
 				PRODUCT_NAME = LongPressTable;
-				PROVISIONING_PROFILE = "5cab05a6-b1ee-4d98-ae69-eec2171686be";
+				PROVISIONING_PROFILE = "53c0c621-323b-4c95-a8dc-32a33a66ae78";
 			};
 			name = Release;
 		};

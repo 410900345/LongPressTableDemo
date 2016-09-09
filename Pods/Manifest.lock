@@ -1,4 +1,12 @@
 PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -13,15 +21,17 @@ PODS:
   - SSCategoriesSDK/SSUIKit (0.3.0)
 
 DEPENDENCIES:
+  - CocoaLumberjack (~> 2.3.0)
   - FMDB (~> 2.5)
   - SDWebImage (~> 3.7.5)
   - SSCategoriesSDK
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SSCategoriesSDK: 81e0ffa89257f73f8af59fe86d4218399ed9cebb
 
-PODFILE CHECKSUM: e10c65c97b7a2e3fb41a30dcdc3b71fe083a2d34
+PODFILE CHECKSUM: 8a22b44143b04e5c4ca8007bc4a4459006d4a9d8
 
 COCOAPODS: 1.0.1

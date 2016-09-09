@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2133B43B5916BF4D13FA6737C2E2A0B6</key>
+		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29BB5E579EA66EE05B514236EA125B23</key>
+		<key>4A46740DD918F272B61C774E7251D128</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>63CAFFC290635ED09808447EFB58A9C3</key>
+		<key>79AB5CBBD0A2BFC7CAFA0AC25CC8DA16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5C34B5DC5DB0C94ACC71963333D44A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

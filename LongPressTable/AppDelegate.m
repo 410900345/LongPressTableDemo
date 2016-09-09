@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "MainViewController.h"
+#import "SNLogger.h"
+
+//4、打印开关控制
+#define DEBUGLOG 1
 
 @interface AppDelegate ()
 
@@ -25,6 +29,12 @@
     MainViewController *mainVC = [[MainViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
 
+#ifdef DEBUGLOG
+    [SNLogger startWithLogLevel:SNLogLevelDEBUG];
+#else
+    [SNLogger startWithLogLevel:SNLogLevelOFF];
+#endif
+    
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;

@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "UITextView+LongPress.h"
 #import <SSCategories.h>
+#import "SNLogger.h"
 
 #define kDeviceWidth  320
 #define kDeviceHeight  440
@@ -30,6 +31,12 @@
     [self.view addSubview:btn];
     
     [self getsSubViews];
+    
+     DLog("%@",self.view.subviews);
+    SNLogError("%@",self.view.subviews);
+    SNLogWarn("%@",self.view.subviews);
+    SNLogInfo("%@",self.view.subviews);
+     SNLogDebug("%@",self.view.subviews);
 }
 
 -(void)btnClick {

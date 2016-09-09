@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UITableView+LongPressTable.h"
 #import "UITableViewDataSource_LongPreeable.h"
+#import "SNLogger.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UITableViewDataSource_LongPreeable>
 {
@@ -29,6 +30,8 @@
     }
 //    集成代码
     m_tableView.longPressTableAble = YES;
+    
+    DLog("%@",m_dataArray);
 }
 
 - (void)dealloc
