@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '507B65EC9920DE104216FF9A86C95FD9'
+               BlueprintIdentifier = '8372F78638319E65FE062B717A23A189'
                BlueprintName = 'SSCategoriesSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSSCategoriesSDK.a'>

@@ -25,12 +25,22 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>HappyDNS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-LongPressTable.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>Qiniu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
@@ -54,17 +64,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4BE19C39822B44D5906F01186CE4A336</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>507B65EC9920DE104216FF9A86C95FD9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6A98A89D4EE2DF196DE02E8D0D253D93</key>
+		<key>8372F78638319E65FE062B717A23A189</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -75,6 +75,26 @@
 			<true/>
 		</dict>
 		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE75A0377E5DF675ED6CE4E64F9AF8FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0EA7BD0DF7B64D1D22AE99C93B3613D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1B1C9CAE9A11CCCEC4E9A72BA56EFFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E626DD83BB9CF5746ADCAF0E7E7689CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
