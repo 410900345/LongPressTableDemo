@@ -10,6 +10,7 @@
 #import "UITableView+LongPressTable.h"
 #import "UITableViewDataSource_LongPreeable.h"
 #import "SNLogger.h"
+#import "CheckConfigUpdateAPI.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UITableViewDataSource_LongPreeable>
 {
@@ -23,15 +24,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    m_dataArray = [[NSMutableArray alloc] init];
-    [self creatTableView];
-    for (int i = 0; i<10; i++) {
-        [m_dataArray addObject:@(i)];
-    }
-//    集成代码
-    m_tableView.longPressTableAble = YES;
-    
-    DLog("%@",m_dataArray);
+//    m_dataArray = [[NSMutableArray alloc] init];
+//    [self creatTableView];
+//    for (int i = 0; i<10; i++) {
+//        [m_dataArray addObject:@(i)];
+//    }
+////    集成代码
+//    m_tableView.longPressTableAble = YES;
+//    
+//    DLog("%@",m_dataArray);
+
+    CheckConfigUpdateAPI *checkOrderInfoAPI = [[CheckConfigUpdateAPI alloc] init];
+    [checkOrderInfoAPI startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
+        NSLog(@"-----%@",request.responseString);
+    } failure:^(__kindof YTKBaseRequest *request) {
+        NSLog(@"-----%@",request.responseString);
+    }];
 }
 
 - (void)dealloc

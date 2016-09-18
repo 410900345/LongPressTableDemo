@@ -25,6 +25,7 @@
 		758D383A1C9BCB0C00736B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D382E1C9BCB0C00736B56 /* ViewController.m */; };
 		75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AD75B51C9BDDE600FE2131 /* MainViewController.m */; };
 		75E2CD611D82B84E0095D5B4 /* NSDate+PGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */; };
+		75F668FF1D8E3E9F00466A0E /* CheckConfigUpdateAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F668FE1D8E3E9F00466A0E /* CheckConfigUpdateAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		75AD75B51C9BDDE600FE2131 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		75E2CD5F1D82B84E0095D5B4 /* NSDate+PGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PGAdd.h"; sourceTree = "<group>"; };
 		75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PGAdd.m"; sourceTree = "<group>"; };
+		75F668FD1D8E3E9F00466A0E /* CheckConfigUpdateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckConfigUpdateAPI.h; sourceTree = "<group>"; };
+		75F668FE1D8E3E9F00466A0E /* CheckConfigUpdateAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckConfigUpdateAPI.m; sourceTree = "<group>"; };
 		75F701DD1C437E2D00661E64 /* LongPressTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTable.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +153,7 @@
 		758D38251C9BCB0C00736B56 /* LongPressTable */ = {
 			isa = PBXGroup;
 			children = (
+				75F668FC1D8E3E9F00466A0E /* YOUMENGSDK */,
 				75E2CD5F1D82B84E0095D5B4 /* NSDate+PGAdd.h */,
 				75E2CD601D82B84E0095D5B4 /* NSDate+PGAdd.m */,
 				750215221D82976600321420 /* IPAddress.c */,
@@ -172,6 +176,15 @@
 				758D382E1C9BCB0C00736B56 /* ViewController.m */,
 			);
 			path = LongPressTable;
+			sourceTree = "<group>";
+		};
+		75F668FC1D8E3E9F00466A0E /* YOUMENGSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75F668FD1D8E3E9F00466A0E /* CheckConfigUpdateAPI.h */,
+				75F668FE1D8E3E9F00466A0E /* CheckConfigUpdateAPI.m */,
+			);
+			path = YOUMENGSDK;
 			sourceTree = "<group>";
 		};
 		75F701D41C437E2D00661E64 = {
@@ -392,6 +405,7 @@
 				750215211D82974900321420 /* SystemInfo.m in Sources */,
 				75AD75B61C9BDDE600FE2131 /* MainViewController.m in Sources */,
 				75E2CD611D82B84E0095D5B4 /* NSDate+PGAdd.m in Sources */,
+				75F668FF1D8E3E9F00466A0E /* CheckConfigUpdateAPI.m in Sources */,
 				7536CD8E1CEB19CE009D1B18 /* UITableView+LongPressTable.m in Sources */,
 				753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */,
 				758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */,

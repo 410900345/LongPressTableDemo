@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6A98A89D4EE2DF196DE02E8D0D253D93'
+               BlueprintIdentifier = 'D1B1C9CAE9A11CCCEC4E9A72BA56EFFF'
                BlueprintName = 'Pods-LongPressTable'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-LongPressTable.a'>
