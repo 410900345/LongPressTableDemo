@@ -10,7 +10,7 @@
 #import "UITableView+LongPressTable.h"
 #import "UITableViewDataSource_LongPreeable.h"
 #import "SNLogger.h"
-#import "CheckConfigUpdateAPI.h"
+//#import "CheckConfigUpdateAPI.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UITableViewDataSource_LongPreeable>
 {
@@ -34,12 +34,12 @@
 //    
 //    DLog("%@",m_dataArray);
 
-    CheckConfigUpdateAPI *checkOrderInfoAPI = [[CheckConfigUpdateAPI alloc] init];
-    [checkOrderInfoAPI startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
-        NSLog(@"-----%@",request.responseString);
-    } failure:^(__kindof YTKBaseRequest *request) {
-        NSLog(@"-----%@",request.responseString);
-    }];
+//    CheckConfigUpdateAPI *checkOrderInfoAPI = [[CheckConfigUpdateAPI alloc] init];
+//    [checkOrderInfoAPI startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
+//        NSLog(@"-----%@",request.responseString);
+//    } failure:^(__kindof YTKBaseRequest *request) {
+//        NSLog(@"-----%@",request.responseString);
+//    }];
 }
 
 - (void)dealloc
