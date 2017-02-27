@@ -18,7 +18,7 @@ pod 'LongPressTable'
 方法3.使用Cartfile,在Cartfile里面增加
 
 ```
-github "Alamofire/Alamofire" ~> 3.0
+github "sukeyang/LongPressTableDemo" 
 ```
 
 ## 使用方法
