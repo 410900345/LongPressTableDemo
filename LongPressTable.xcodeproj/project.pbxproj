@@ -14,10 +14,15 @@
 		753ACC191D65538A00C0CDE4 /* UITextView+LongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */; };
 		753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */; };
 		753ACC281D65581400C0CDE4 /* UITextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC271D65581400C0CDE4 /* UITextView+Extras.m */; };
-		754F04751E6412CA00BD2252 /* LongPressTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 754F04731E6412CA00BD2252 /* LongPressTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754F04781E6412CA00BD2252 /* LongPressTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableCell.framework */; };
 		754F04791E6412CA00BD2252 /* LongPressTableCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		754F04821E64135000BD2252 /* UITableView+LongPressTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD891CEB19CE009D1B18 /* UITableView+LongPressTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754F048A1E64195000BD2252 /* UITableViewDataSource_LongPreeable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD8B1CEB19CE009D1B18 /* UITableViewDataSource_LongPreeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754F048B1E64195600BD2252 /* UIButton+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD861CEB19CE009D1B18 /* UIButton+category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754F048C1E64195A00BD2252 /* LongPressTableHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD841CEB19CE009D1B18 /* LongPressTableHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754F048D1E641AD100BD2252 /* LongPressTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */; };
+		754F048E1E641AD100BD2252 /* UIButton+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD871CEB19CE009D1B18 /* UIButton+category.m */; };
+		754F048F1E641AD100BD2252 /* UITableView+LongPressTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */; };
 		758D38351C9BCB0C00736B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D38271C9BCB0C00736B56 /* AppDelegate.m */; };
 		758D38361C9BCB0C00736B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758D38281C9BCB0C00736B56 /* Assets.xcassets */; };
 		758D38371C9BCB0C00736B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758D38291C9BCB0C00736B56 /* LaunchScreen.storyboard */; };
@@ -73,7 +78,6 @@
 		7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTableHelper.m; sourceTree = "<group>"; };
 		7536CD861CEB19CE009D1B18 /* UIButton+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+category.h"; sourceTree = "<group>"; };
 		7536CD871CEB19CE009D1B18 /* UIButton+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+category.m"; sourceTree = "<group>"; };
-		7536CD881CEB19CE009D1B18 /* UIButton_category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton_category.h; sourceTree = "<group>"; };
 		7536CD891CEB19CE009D1B18 /* UITableView+LongPressTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LongPressTable.h"; sourceTree = "<group>"; };
 		7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LongPressTable.m"; sourceTree = "<group>"; };
 		7536CD8B1CEB19CE009D1B18 /* UITableViewDataSource_LongPreeable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDataSource_LongPreeable.h; sourceTree = "<group>"; };
@@ -150,7 +154,6 @@
 				7536CD851CEB19CE009D1B18 /* LongPressTableHelper.m */,
 				7536CD861CEB19CE009D1B18 /* UIButton+category.h */,
 				7536CD871CEB19CE009D1B18 /* UIButton+category.m */,
-				7536CD881CEB19CE009D1B18 /* UIButton_category.h */,
 				7536CD891CEB19CE009D1B18 /* UITableView+LongPressTable.h */,
 				7536CD8A1CEB19CE009D1B18 /* UITableView+LongPressTable.m */,
 				7536CD8B1CEB19CE009D1B18 /* UITableViewDataSource_LongPreeable.h */,
@@ -237,8 +240,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				754F04751E6412CA00BD2252 /* LongPressTableCell.h in Headers */,
 				754F04821E64135000BD2252 /* UITableView+LongPressTable.h in Headers */,
+				754F048C1E64195A00BD2252 /* LongPressTableHelper.h in Headers */,
+				754F048B1E64195600BD2252 /* UIButton+category.h in Headers */,
+				754F048A1E64195000BD2252 /* UITableViewDataSource_LongPreeable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +460,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754F048D1E641AD100BD2252 /* LongPressTableHelper.m in Sources */,
+				754F048E1E641AD100BD2252 /* UIButton+category.m in Sources */,
+				754F048F1E641AD100BD2252 /* UITableView+LongPressTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
