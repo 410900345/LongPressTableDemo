@@ -10,8 +10,7 @@
 #import "UITableView+LongPressTable.h"
 #import "UITableViewDataSource_LongPreeable.h"
 
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UITableViewDataSource_LongPreeable>
-{
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UITableViewDataSource_LongPreeable> {
     UITableView *m_tableView;
     NSMutableArray *m_dataArray;
 }
@@ -19,8 +18,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     m_dataArray = [[NSMutableArray alloc] init];
     [self creatTableView];
@@ -31,8 +29,7 @@
     m_tableView.longPressTableAble = YES;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     NSLog(@"----dealloc");
 //    m_tableView.longPressTableAble = NO;
 }
@@ -42,8 +39,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)creatTableView
-{
+- (void)creatTableView {
     m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0,  self.view.frame.size.width,  self.view.frame.size.height-64) style:UITableViewStylePlain];
     m_tableView.dataSource = self;
     m_tableView.delegate = self;
@@ -57,19 +53,18 @@
 }
 
 #pragma mark - UITableViewDataSource_LongPreeable
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     float kCellHeight = 35;
-//    switch (indexPath.row) {
-//        case 0:
-//            kCellHeight = 20;
-//            break;
-//        case 1:
-//            kCellHeight = 30;
-//            break;
-//        default:
-//            break;
-//    }
+    switch (indexPath.row) {
+        case 0:
+            kCellHeight = 20;
+            break;
+        case 1:
+            kCellHeight = 30;
+            break;
+        default:
+            break;
+    }
     return kCellHeight;
 }
 
@@ -85,8 +80,7 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         [m_dataArray removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
@@ -94,8 +88,7 @@
 }
 
 #pragma mark - UITableView Delegate methods
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 }
 @end
