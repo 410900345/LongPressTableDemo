@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UITableViewDataSource_LongPreeable.h"
+
 @interface UITableView (LongPressTable)
 
 @property (nonatomic, assign) BOOL longPressTableAble;

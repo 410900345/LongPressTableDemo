@@ -3,9 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
+	<dict>
+		<key>LongPressTableCell.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>754F04701E6412CA00BD2252</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>75F701DC1C437E2D00661E64</key>
 		<dict>
 			<key>primary</key>

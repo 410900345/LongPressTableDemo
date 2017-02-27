@@ -18,13 +18,11 @@ static int kObservingTableViewLayoutContext;
     NSIndexPath *_editingIndexPath;
 }
 
--(void)dealloc
-{
+- (void)dealloc {
 //     NSLog(@"LongPressTableHelper------------");
 }
 
-- (id)initWithCollectionView:(UITableView *)tableView
-{
+- (id)initWithCollectionView:(UITableView *)tableView {
     self = [super init];
     if (self) {
         _tableView = tableView;
@@ -53,10 +51,8 @@ static int kObservingTableViewLayoutContext;
     return self;
 }
 
-- (void)setEnabled:(BOOL)enabled
-{
-    if (!enabled)
-   {
+- (void)setEnabled:(BOOL)enabled {
+    if (!enabled) {
        [_tableView removeObserver:self forKeyPath:@"contentOffset"];
        return;
     }
@@ -66,34 +62,29 @@ static int kObservingTableViewLayoutContext;
     _deleteButton.enabled = enabled;
 }
 
-- (void)handleLongPress:(UILongPressGestureRecognizer *)gestureRecognizer
-{
+- (void)handleLongPress:(UILongPressGestureRecognizer *)gestureRecognizer {
     if (![(id<UITableViewDataSource_LongPreeable>)self.tableView.delegate conformsToProtocol:@protocol(UITableViewDataSource_LongPreeable)]) {
         return;
     }
     
-    if (gestureRecognizer.state == UIGestureRecognizerStateBegan && !_editingIndexPath)
-    {
+    if (gestureRecognizer.state == UIGestureRecognizerStateBegan && !_editingIndexPath) {
         UIView * view = gestureRecognizer.view;
         //    CGPoint location = [gestureRecognizer locationInView:self.view];
-        if(![view isKindOfClass:[UITableView class]])
-        {
+        if(![view isKindOfClass:[UITableView class]]) {
             return;
         }
         CGPoint point = [gestureRecognizer locationInView:view];
         
         NSIndexPath * indexPath = [self.tableView indexPathForRowAtPoint:point];
         UITableViewCell * cell = [self.tableView cellForRowAtIndexPath:indexPath];
-        if (cell)
-        {
+        if (cell) {
             _editingIndexPath = indexPath;
             [self setEditing:YES atIndexPath:indexPath cell:cell];
         }
     }
 }
 
-- (void)deleteItem:(id)sender
-{
+- (void)deleteItem:(id)sender {
     UIButton * deleteButton = (UIButton *)sender;
     NSIndexPath * indexPath = deleteButton.indexPath;
     
@@ -109,28 +100,21 @@ static int kObservingTableViewLayoutContext;
     [self.tableView removeGestureRecognizer:_tapGestureRecognizer];
 }
 
-- (void)tapped:(UIGestureRecognizer *)gestureRecognizer
-{
-    if(_editingIndexPath)
-    {
+- (void)tapped:(UIGestureRecognizer *)gestureRecognizer {
+    if(_editingIndexPath) {
         UITableViewCell * cell = [self.tableView cellForRowAtIndexPath:_editingIndexPath];
         [self setEditing:NO atIndexPath:_editingIndexPath cell:cell];
     }
 }
 
 - (void)setEditing:(BOOL)editing atIndexPath:indexPath cell:(UITableViewCell *)cell {
-    
-    if(editing)
-    {
-        if(_editingIndexPath)
-        {
+    if(editing) {
+        if(_editingIndexPath) {
             UITableViewCell * editingCell = [self.tableView cellForRowAtIndexPath:_editingIndexPath];
             [self setEditing:NO atIndexPath:_editingIndexPath cell:editingCell];
         }
         [self.tableView addGestureRecognizer:_tapGestureRecognizer];
-    }
-    else
-    {
+    } else {
         [self.tableView removeGestureRecognizer:_tapGestureRecognizer];
     }
     
@@ -139,8 +123,7 @@ static int kObservingTableViewLayoutContext;
     CGFloat deleteButtonXOffsetOld;
     CGFloat deleteButtonXOffset;
     
-    if(editing)
-    {
+    if(editing) {
         cellXOffset = -kDeleteButtonWidth;
         deleteButtonXOffset = _tableView.frame.size.width - kDeleteButtonWidth;
         deleteButtonXOffsetOld = _tableView.frame.size.width;
@@ -163,12 +146,10 @@ static int kObservingTableViewLayoutContext;
     }];
 }
 
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
-{
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     NSLog(@"------------");
     if (context == &kObservingTableViewLayoutContext) {
-        if(_editingIndexPath)
-        {
+        if(_editingIndexPath) {
             [self tapped:nil];
         }
     }

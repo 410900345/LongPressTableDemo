@@ -12,8 +12,7 @@
 
 @implementation UITableView (LongPressTable)
 
-- (LongPressTableHelper *)getHelper
-{
+- (LongPressTableHelper *)getHelper {
     LongPressTableHelper *helper = objc_getAssociatedObject(self, @selector(longPressTableAble));
     if(helper == nil) {
         helper = [[LongPressTableHelper alloc] initWithCollectionView:self];
@@ -22,13 +21,11 @@
     return helper;
 }
 
--(BOOL)longPressTableAble
-{
+- (BOOL)longPressTableAble {
     return  [self getHelper].enabled;
 }
 
--(void)setLongPressTableAble:(BOOL)longPressTableAble
-{
+- (void)setLongPressTableAble:(BOOL)longPressTableAble {
      [self getHelper].enabled = longPressTableAble;
 }
 @end
