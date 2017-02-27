@@ -14,8 +14,8 @@
 		753ACC191D65538A00C0CDE4 /* UITextView+LongPress.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC181D65538A00C0CDE4 /* UITextView+LongPress.m */; };
 		753ACC221D65574900C0CDE4 /* LongPressTextViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */; };
 		753ACC281D65581400C0CDE4 /* UITextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 753ACC271D65581400C0CDE4 /* UITextView+Extras.m */; };
-		754F04781E6412CA00BD2252 /* LongPressTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableCell.framework */; };
-		754F04791E6412CA00BD2252 /* LongPressTableCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		754F04781E6412CA00BD2252 /* LongPressTableHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableHelper.framework */; };
+		754F04791E6412CA00BD2252 /* LongPressTableHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 754F04711E6412CA00BD2252 /* LongPressTableHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		754F04821E64135000BD2252 /* UITableView+LongPressTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD891CEB19CE009D1B18 /* UITableView+LongPressTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754F048A1E64195000BD2252 /* UITableViewDataSource_LongPreeable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD8B1CEB19CE009D1B18 /* UITableViewDataSource_LongPreeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754F048B1E64195600BD2252 /* UIButton+category.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536CD861CEB19CE009D1B18 /* UIButton+category.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				754F04791E6412CA00BD2252 /* LongPressTableCell.framework in Embed Frameworks */,
+				754F04791E6412CA00BD2252 /* LongPressTableHelper.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +87,7 @@
 		753ACC211D65574900C0CDE4 /* LongPressTextViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressTextViewHelper.m; sourceTree = "<group>"; };
 		753ACC261D65581400C0CDE4 /* UITextView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extras.h"; sourceTree = "<group>"; };
 		753ACC271D65581400C0CDE4 /* UITextView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extras.m"; sourceTree = "<group>"; };
-		754F04711E6412CA00BD2252 /* LongPressTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LongPressTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754F04711E6412CA00BD2252 /* LongPressTableHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LongPressTableHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754F04731E6412CA00BD2252 /* LongPressTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongPressTableCell.h; sourceTree = "<group>"; };
 		754F04741E6412CA00BD2252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758D38261C9BCB0C00736B56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FA8BA561A0CF85A4509087 /* libPods-LongPressTable.a in Frameworks */,
-				754F04781E6412CA00BD2252 /* LongPressTableCell.framework in Frameworks */,
+				754F04781E6412CA00BD2252 /* LongPressTableHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 				75F701DD1C437E2D00661E64 /* LongPressTable.app */,
 				75F701F61C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
 				75F702011C437E2D00661E64 /* LongPressTable.temp_caseinsensitive_rename.xctest */,
-				754F04711E6412CA00BD2252 /* LongPressTableCell.framework */,
+				754F04711E6412CA00BD2252 /* LongPressTableHelper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 			);
 			name = LongPressTableCell;
 			productName = LongPressTableCell;
-			productReference = 754F04711E6412CA00BD2252 /* LongPressTableCell.framework */;
+			productReference = 754F04711E6412CA00BD2252 /* LongPressTableHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		75F701DC1C437E2D00661E64 /* LongPressTable */ = {
@@ -547,7 +547,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julong.LongPressTableCell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = LongPressTableHelper;
+				PRODUCT_NAME = LongPressTableHelper;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -572,7 +573,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julong.LongPressTableCell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = LongPressTableHelper;
+				PRODUCT_NAME = LongPressTableHelper;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -748,6 +750,7 @@
 				754F047B1E6412CA00BD2252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75F701D81C437E2D00661E64 /* Build configuration list for PBXProject "LongPressTable" */ = {
 			isa = XCConfigurationList;
